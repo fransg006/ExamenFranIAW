@@ -46,8 +46,11 @@ He creat una branca anomenada Documentació, on crearé els documents que es dem
 > Aquest enllaç t'envia al document: [Enllaç](index.md)
 
    2. Pàgina de comandes: Pàgina amb totes les comandes de git.
+> Aquest enllaç t'envia al document: [Enllaç](comandes.md)
 
    3. Documentació del procés: clonació i creació del repositori, creació i gestió de rames, creació, gestió i publicació del projecte mkdocs.
+> Es troba a aquest mateix document.
+
 6. S'avaluarà el desenvolupament detallat i degudament versionat, la presentació i l'organització de la informació.
 7. S'avaluarà l'ús dels elements bàsics i avançats de Markdown, així com la correcta estructuració del document. Hauràs d'incloure taules, llistes, enllaços, imatges i codi dins de la documentació del procés.
 8.  Lliura el pdf generat a partir de la documentació del procés.
