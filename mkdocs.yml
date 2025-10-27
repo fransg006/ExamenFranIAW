@@ -1,7 +1,7 @@
 site_name: Examen de Fran
 
 theme:
-  name: windmill
+  name: readthedocs
 
 
 nav:
