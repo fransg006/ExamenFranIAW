@@ -13,6 +13,22 @@ He clonat el repositori d'Espe per tal de tenir el document markdown del examen.
 
 ![Imatge](IMG/2.png)
 
+Després he copiat manualment el document a ExamenFranIAW, al igual que el directori IMG, on es desen les imatges.
+
+Seguidament he creat el projecte de mkdocs.
+
+![Imatge](IMG/3.png)
+
+Després he inicialitzat el projecte, l'he connectat al meu repositori del GitHub i he fet el push.
+
+![Imatge](IMG/4.png)
+
+I es pot llistar el contingut d'ell.
+
+![Imatge](IMG/5.png)
+
+
+
 3. Incorpora els `Comandaments de Git` a la branca principal del teu repositori a partir repositori https://github.com/espemm/UD01_exam_IAW.git
 4. La documentació haurà de crear-se en una branca del vostre propi repositori destinada a d'això, i en acabar, publicar-la a Github Pages.
 5. La documentació inclourà:
