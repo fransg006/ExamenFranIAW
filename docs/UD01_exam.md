@@ -45,6 +45,10 @@ Per a fer el desplegament a GitHub Pages, he usat el comandament *mkdocs gh-depl
 
 ![Imatge](IMG/8.png)
  
+Després de fer este comandament es pot veure la nova branca, tinguen ja 3 creades
+
+![Imatge](IMG/10.png)
+
 Desplegat es pot veure així
 
 ![Imatge](IMG/9.png)
