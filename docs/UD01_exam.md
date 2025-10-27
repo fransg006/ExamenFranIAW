@@ -37,6 +37,9 @@ He creat una branca anomenada Documentació, on crearé els documents que es dem
 
 ![Imatge](IMG/6.png)
 
+Ara mateix, després d'haver creat la branca Documentacio, haver-me situat en ella amb el comandament *git checkout Documentació*, haver fet els comandaments *git add .*, *git commit -m "Text"* i *git push origin Documentacio*, ja podem veure les rames com a la seguent imatge.
+
+![Imatge](IMG/7.png)
 
 
 5. La documentació inclourà:

@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Examen de Fran
+
+theme:
+  name: windmill
+
+
+nav:
+ - "Index principal": index.md
+ - "Comandes basiques": comandes.md
+ - "Examen realitzat": UD01_exam.md
