@@ -9,6 +9,10 @@ La pràctica consisteix a crear una pàgina web de documentació utilitzant Mark
 1. Caldrà que crees un repositori per a fer l'examen.
 ![Imatge](IMG/1.png)
 2. La documentació ha d'estar creada amb MkDocs, indicar les passes que has seguit i contenir els `Comandaments de Git` que hages utilitzat. 
+He clonat el repositori d'Espe per tal de tenir el document markdown del examen.
+
+![Imatge](IMG/2.png)
+
 3. Incorpora els `Comandaments de Git` a la branca principal del teu repositori a partir repositori https://github.com/espemm/UD01_exam_IAW.git
 4. La documentació haurà de crear-se en una branca del vostre propi repositori destinada a d'això, i en acabar, publicar-la a Github Pages.
 5. La documentació inclourà:
