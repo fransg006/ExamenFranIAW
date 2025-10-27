@@ -43,6 +43,7 @@ He creat una branca anomenada Documentació, on crearé els documents que es dem
 
    1. Pàgina d'inici amb el teu nom, curs, data i llista amb els enllaços a la resta de documents.
 
+> Aquest enllaç t'envia al document: [Enllaç](index.md)
 
    2. Pàgina de comandes: Pàgina amb totes les comandes de git.
 
