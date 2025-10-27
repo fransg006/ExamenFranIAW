@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Examen realitzat - Examen de Fran</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "UD01 - EXAMEN IAW", url: "#_top", children: [
+              {title: "Examen de la UD01 de IAW", url: "#examen-de-la-ud01-de-iaw" },
+              {title: "Comandes de Git", url: "#comandes-de-git" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav">
+      <a href="../comandes/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../comandes/" class="btn btn-xs btn-link">
+        Comandes basiques
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="ud01-examen-iaw">UD01 - EXAMEN IAW</h1>
+<h2 id="examen-de-la-ud01-de-iaw">Examen de la UD01 de IAW</h2>
+<p>En aquesta prova pràctica s'avaluarà la teua destresa sobre els continguts de la Unitat 01 del mòdul d'Implantació d'Aplicacions Web. </p>
+<p>La pràctica consisteix a crear una pàgina web de documentació utilitzant Markdown, MkDocs i Git per a la creació, edició i publicació.</p>
+<ol>
+<li>Caldrà que crees un repositori per a fer l'examen.
+<img alt="Imatge" src="../IMG/1.png" /></li>
+<li>La documentació ha d'estar creada amb MkDocs, indicar les passes que has seguit i contenir els <code>Comandaments de Git</code> que hages utilitzat. 
+He clonat el repositori d'Espe per tal de tenir el document markdown del examen.</li>
+</ol>
+<p><img alt="Imatge" src="../IMG/2.png" /></p>
+<p>Després he copiat manualment el document a ExamenFranIAW, al igual que el directori IMG, on es desen les imatges.</p>
+<p>Seguidament he creat el projecte de mkdocs.</p>
+<p><img alt="Imatge" src="../IMG/3.png" /></p>
+<p>Després he inicialitzat el projecte, l'he connectat al meu repositori del GitHub i he fet el push.</p>
+<p><img alt="Imatge" src="../IMG/4.png" /></p>
+<p>I es pot llistar el contingut d'ell.</p>
+<p><img alt="Imatge" src="../IMG/5.png" /></p>
+<ol>
+<li>
+<p>Incorpora els <code>Comandaments de Git</code> a la branca principal del teu repositori a partir repositori https://github.com/espemm/UD01_exam_IAW.git</p>
+</li>
+<li>
+<p>La documentació haurà de crear-se en una branca del vostre propi repositori destinada a d'això, i en acabar, publicar-la a Github Pages.</p>
+</li>
+</ol>
+<p>He creat una branca anomenada Documentació, on crearé els documents que es demanen al seguent punt.</p>
+<p><img alt="Imatge" src="../IMG/6.png" /></p>
+<p>Ara mateix, després d'haver creat la branca Documentacio, haver-me situat en ella amb el comandament <em>git checkout Documentació</em>, haver fet els comandaments <em>git add .</em>, <em>git commit -m "Text"</em> i <em>git push origin Documentacio</em>, ja podem veure les rames com a la seguent imatge.</p>
+<p><img alt="Imatge" src="../IMG/7.png" /></p>
+<p>Per a fer el desplegament a GitHub Pages, he usat el comandament <em>mkdocs gh-deploy</em> , per tal de poder veure el resultat.</p>
+<p><img alt="Imatge" src="IMG/8.png" /></p>
+<p>Desplegat es pot veure així</p>
+<p><img alt="Imatge" src="IMG/9.png" /></p>
+<ol>
+<li>
+<p>La documentació inclourà:</p>
+</li>
+<li>
+<p>Pàgina d'inici amb el teu nom, curs, data i llista amb els enllaços a la resta de documents.</p>
+</li>
+</ol>
+<blockquote>
+<p>Aquest enllaç t'envia al document: <a href="../">Enllaç</a></p>
+</blockquote>
+<ol>
+<li>
+<p>Pàgina de comandes: Pàgina amb totes les comandes de git.</p>
+<blockquote>
+<p>Aquest enllaç t'envia al document: <a href="../comandes/">Enllaç</a></p>
+</blockquote>
+</li>
+<li>
+<p>Documentació del procés: clonació i creació del repositori, creació i gestió de rames, creació, gestió i publicació del projecte mkdocs.</p>
+<blockquote>
+<p>Es troba a aquest mateix document.</p>
+</blockquote>
+</li>
+<li>
+<p>S'avaluarà el desenvolupament detallat i degudament versionat, la presentació i l'organització de la informació.</p>
+</li>
+<li>S'avaluarà l'ús dels elements bàsics i avançats de Markdown, així com la correcta estructuració del document. Hauràs d'incloure taules, llistes, enllaços, imatges i codi dins de la documentació del procés.</li>
+<li>Lliura el pdf generat a partir de la documentació del procés.</li>
+<li>Lliura l'enllaç al repositori del teu examen, on es puguen vore 3 branques: la branca principal amb l'enunciat clonat, altra amb la documentació i la branca de Pages.</li>
+<li>Lliurament de l'enllaç a la pàgina de Github Pages generada.</li>
+</ol>
+<blockquote>
+<p>Les comandes de git les tens disponibles en la taula de baix.</p>
+</blockquote>
+<h2 id="comandes-de-git">Comandes de Git</h2>
+<h3 id="crear-i-clonar-repositoris">Crear i clonar repositoris</h3>
+<table>
+<thead>
+<tr>
+<th>Comanda</th>
+<th>Descripció</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git init</code></td>
+<td>Inicialitza un repositori local de Git</td>
+</tr>
+<tr>
+<td><code>git clone ssh://git@github.com/[nom-usuari]/[nom-repo].git</code></td>
+<td>Crea una còpia local d'un repositori remot</td>
+</tr>
+</tbody>
+</table>
+<h3 id="comandes-basiques">Comandes bàsiques</h3>
+<table>
+<thead>
+<tr>
+<th>Comanda</th>
+<th>Descripció</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git status</code></td>
+<td>Comprova l'estat actual</td>
+</tr>
+<tr>
+<td><code>git add [nom-arxiu.txt]</code></td>
+<td>Afegeix un fitxer a la zona de pujar canvis</td>
+</tr>
+<tr>
+<td><code>git add -A</code></td>
+<td>Afegeix tots els fitxers del repositori a la zona de pujar canvis</td>
+</tr>
+<tr>
+<td><code>git commit -m "[missatge]"</code></td>
+<td>Crea un missatge explicatiu dels canvis</td>
+</tr>
+<tr>
+<td><code>git rm -r [nom-arxiu.txt]</code></td>
+<td>Elimina un fitxer (o carpeta)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="branques-i-fusions">Branques i fusions</h3>
+<table>
+<thead>
+<tr>
+<th>Comanda</th>
+<th>Descripció</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git branch</code></td>
+<td>Mostra una llista de les branques que hi ha (l'asterisc assenyala la branca activa)</td>
+</tr>
+<tr>
+<td><code>git branch -a</code></td>
+<td>Mostra una llista de totes les branques (locals i remotes)</td>
+</tr>
+<tr>
+<td><code>git branch [nom]</code></td>
+<td>Crea una nova branca</td>
+</tr>
+<tr>
+<td><code>git branch -d [nom]</code></td>
+<td>Elimina una branca local</td>
+</tr>
+<tr>
+<td><code>git push origin --delete [nom]</code></td>
+<td>Elimina una branca remota</td>
+</tr>
+<tr>
+<td><code>git checkout -b [nom]</code></td>
+<td>Crea una nova branca i ens posicionem</td>
+</tr>
+<tr>
+<td><code>git checkout -b [nom] origin/[nom]</code></td>
+<td>Clona una branca remota i ens posicionem ahí</td>
+</tr>
+<tr>
+<td><code>git branch -m [nom-antic] [nom-nou]</code></td>
+<td>Renomena una branca local</td>
+</tr>
+<tr>
+<td><code>git checkout [nom-branca]</code></td>
+<td>Canvia a una branca concreta</td>
+</tr>
+<tr>
+<td><code>git checkout -</code></td>
+<td>Canvia a la última branca activa</td>
+</tr>
+<tr>
+<td><code>git checkout -- [nom-arxiu]</code></td>
+<td>Descarta canvis en un fitxer</td>
+</tr>
+<tr>
+<td><code>git merge [nom-branca]</code></td>
+<td>Combina una branca amb la branca activa</td>
+</tr>
+<tr>
+<td><code>git merge [nom-branca-origen] [nom-branca-desti]</code></td>
+<td>Combina una branca (branca-origen) amb una branca nova (branca-desti)</td>
+</tr>
+<tr>
+<td><code>git stash</code></td>
+<td>Reverteix els darrers canvis i errors en el directori actual</td>
+</tr>
+<tr>
+<td><code>git stash clear</code></td>
+<td>Reverteix tots els canvis en el directori actual</td>
+</tr>
+</tbody>
+</table>
+<h3 id="compartir-i-actualitzar-projectes">Compartir i actualitzar projectes</h3>
+<table>
+<thead>
+<tr>
+<th>Comanda</th>
+<th>Descripció</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git push origin [nom-branca]</code></td>
+<td>Envia una branca local al repositori remot</td>
+</tr>
+<tr>
+<td><code>git push -u origin [nom-branca]</code></td>
+<td>Envia canvis al repositori remot (i et posiciona a la branca concreta)</td>
+</tr>
+<tr>
+<td><code>git push</code></td>
+<td>Envia canvis al repositori remot (en la branca actual)</td>
+</tr>
+<tr>
+<td><code>git push origin --delete [nom-branca]</code></td>
+<td>Elimina una branca remota</td>
+</tr>
+<tr>
+<td><code>git pull</code></td>
+<td>Actualitza el repositori local a l'últim commit fet</td>
+</tr>
+<tr>
+<td><code>git pull origin [nom-branca]</code></td>
+<td>Porta / agafa tots els canvis d'un dipòsit remot</td>
+</tr>
+<tr>
+<td><code>git remote add origin ssh://git@github.com/[nom-usuari]/[nom-repo].git</code></td>
+<td>Afegeix canvis a un repositori remot</td>
+</tr>
+<tr>
+<td><code>git remote set-url origin ssh://git@github.com/[nom-usuari]/[nom-repo].git</code></td>
+<td>Ubica la branca remota d'un repositori remot mitjançant SSH</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inspeccionar-i-comparar">Inspeccionar i comparar</h3>
+<table>
+<thead>
+<tr>
+<th>Comanda</th>
+<th>Descripció</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git log</code></td>
+<td>Visualitza els canvis</td>
+</tr>
+<tr>
+<td><code>git log --summary</code></td>
+<td>Visualitza els canvis (en detall)</td>
+</tr>
+<tr>
+<td><code>git log --oneline</code></td>
+<td>Visualitza els canvis (resumit)</td>
+</tr>
+<tr>
+<td><code>git diff [branca-origen] [branca-desti]</code></td>
+<td>Vista prèvia dels canvis abans de fer un merge</td>
+</tr>
+</tbody>
+</table>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav">
+      <a href="../comandes/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../comandes/" class="btn btn-xs btn-link">
+        Comandes basiques
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

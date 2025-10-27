@@ -41,6 +41,14 @@ Ara mateix, després d'haver creat la branca Documentacio, haver-me situat en el
 
 ![Imatge](IMG/7.png)
 
+Per a fer el desplegament a GitHub Pages, he usat el comandament *mkdocs gh-deploy* , per tal de poder veure el resultat.
+
+![Imatge](IMG/8.png)
+ 
+Desplegat es pot veure així
+
+![Imatge](IMG/9.png)
+
 
 5. La documentació inclourà:
 
